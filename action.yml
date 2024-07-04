@@ -4,6 +4,7 @@ author: nicruo
 runs:
   using: 'composite'
   steps:
+  - uses: actions/checkout@v4
   - run: echo hello world
     shell: bash
   - run: pwd
