@@ -1,6 +1,6 @@
 name: My New Action
 description: Another new action
-author: @nicruo
+author: nicruo
 runs:
   using: 'composite'
   steps:
