@@ -1,0 +1,10 @@
+name: My New Action
+description: Another new action
+author: @nicruo
+runs:
+  using: 'composite'
+  steps:
+  - run: echo hello world
+    shell: bash
+  - run: pwd
+    shell: bash
